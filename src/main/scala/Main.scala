@@ -1,3 +1,5 @@
+import readingfiletest.MemoryTestApp
+
 object Main extends App {
-  println("Hello, World!")
+  MemoryTestApp.execute()
 }
