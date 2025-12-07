@@ -2,7 +2,7 @@ package designpattern
 
 import cats.implicits._
 
-object ChainOfResponsibility {
+object ChainOfResponsibilityPattern {
 
   /*
    要求を処理するオブジェクトを1本のチェーン状に並べて順に処理を委譲していくデザインパターン
