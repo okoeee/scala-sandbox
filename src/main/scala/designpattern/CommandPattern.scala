@@ -29,7 +29,9 @@ object CommandPattern {
 
     def delete(id: Long): Option[Shift] = {
       val old = db.get(id)
-      db = db - old
+      old.foreach { old =>
+        db = db - old.id
+      }
       old
     }
 
