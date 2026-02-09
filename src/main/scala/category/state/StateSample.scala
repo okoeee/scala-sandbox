@@ -1,4 +1,4 @@
-package category
+package category.state
 
 import cats.data._
 import cats.implicits._
